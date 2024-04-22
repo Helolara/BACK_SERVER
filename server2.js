@@ -21,8 +21,6 @@ const server=http.createServer((req,res)=>{
 
 })
 
-
-
 server.listen(porta,host,()=>{
     console.log("servidor inicializado")
 })
